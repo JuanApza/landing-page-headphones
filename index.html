@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"
+        />
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page headphones</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav contanier">
+                <a href="" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="active-link nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">Detalles</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#case" class="nav__link">Case</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Productos</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-fill"></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets/img/home.png" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">On Ear</h1>
+                            <h2 class="home__subtitle">Beats 3</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">
+                                Overview
+                            </h3>
+                            <p class="home__description">
+                                Disfruta del sonido galardonado de Beats con la libertad de escuchar de forma inalámbrica y un diseño elegante y estilizado, con cómodas almohadillas que ofrecen una reproducción de primer nivel.
+                            </p>
+
+                            <a href="" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="ri-shopping-bag-fill button__icon"></i>
+                                    Añadir al Carrito
+                                </span>
+                                <span class="home__price">$299</span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+            <!--=============== SPONSOR ===============-->
+            <section class="sponsor section">
+                <div class="sponsor__container grid">
+                    <img src="assets/img/sponsor1.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor2.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor3.png" alt="" class="sponsor__img">
+                    <img src="assets/img/sponsor4.png" alt="" class="sponsor__img">
+                </div>
+            </section>
+
+            <!--=============== SPECS ===============-->
+            <section class="specs section grid" id="specs">
+                <h2 class="section__title section__title-gradient">Detalles</h2>
+
+                <div class="specs__container container grid">
+                    <div class="specs__content grid">
+                        <div class="specs__data">
+                            <i class="ri-bluetooth-line specs__icon"></i>
+                            <h3 class="specs__title">Conexion</h3>
+                            <span class="specs__subtitle">Bluetooth v5.2</span>
+                        </div>
+                        <div class="specs__data">
+                            <i class="ri-battery-charge-fill specs__icon"></i>
+                            <h3 class="specs__title">Bateria</h3>
+                            <span class="specs__subtitle">Duracion 40h</span>
+                        </div>
+                        <div class="specs__data">
+                            <i class="ri-plug-fill specs__icon"></i>
+                            <h3 class="specs__title">Carga</h3>
+                            <span class="specs__subtitle">Fast charge 4.2-AAC</span>
+                        </div>
+                        <div class="specs__data">
+                            <i class="ri-mic-fill specs__icon"></i>
+                            <h3 class="specs__title">Microfono</h3>
+                            <span class="specs__subtitle">Supports Apple Siri <br> and Google</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="assets/img/specs.png" alt="" class="specs__img">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!--=============== CASE ===============-->
+            <section class="case section grid" id="case">
+                <h2 class="section__title section__title-gradient">Case</h2>
+                
+                <div class="case__container container grid">
+                    <div>
+                        <img src="assets/img/case.png" alt="" class="case__img">
+                    </div>
+
+                    <div class="case__data">
+                        <p class="case__description">Con un estuche cómodo y adaptable para que puedas guardarlo cuando quieras, manteniendo su durabilidad para siempre.  
+                        </p>
+
+                        <a href="#" class="button button--flex">
+                            <i class="ri-information-line button__icon"></i>More info
+                        </a>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!--=============== DISCOUNT ===============-->
+            <section class="discount section">
+                <div class="discount__container container grid">
+                    <div class="discount__animate">
+                        <h2 class="discount__title">Sumergete en <br> tu musica</h2>
+                        <p class="discount__description">Obtenlo ahora con un 50% de descuento</p>
+                        <a href="#" class="button button--flex">
+                            <i class="ri-shopping-bag-fill button__icon"></i>
+                            Shop Now
+                        </a>
+                    </div>
+
+                    <img src="assets/img/discount.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--=============== PRODUCTS ===============-->
+            <section class="products section" id="products">
+                <h2 class="section__title section__title-gradient products__line">
+                    Elige <br> Tu estilo
+                </h2>
+
+                <div class="products__container container grid">
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/product1.png" alt="" class="products__img">
+                            <h3 class="products__title">Black</h3>
+                            <span class="products__price">$249</span>
+
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-fill button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/product2.png" alt="" class="products__img">
+                            <h3 class="products__title">Rojo Black</h3>
+                            <span class="products__price">$249</span>
+
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-fill button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/product3.png" alt="" class="products__img">
+                            <h3 class="products__title">Camel Black</h3>
+                            <span class="products__price">$249</span>
+
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-fill button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/product4.png" alt="" class="products__img">
+                            <h3 class="products__title">Azul</h3>
+                            <span class="products__price">$249</span>
+
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-fill button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="products__card">
+                        <div class="products__content">
+                            <img src="assets/img/product5.png" alt="" class="products__img">
+                            <h3 class="products__title">Beige Black</h3>
+                            <span class="products__price">$249</span>
+
+                            <button class="button button--flex products__button">
+                                <i class="ri-shopping-bag-fill button__icon"></i>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+
+                <div class="footer__content">
+                   <h3 class="footer__title">
+                    Productos
+                   </h3>
+
+                   <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Audifonos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Auriculares</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Audio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Accesorios</a>
+                        </li>
+                   </ul>
+
+                </div>
+
+                <div class="footer__content">
+                   <h3 class="footer__title">
+                    Soporte
+                   </h3>
+
+                   <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Atencion al cliente</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Registrarse</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Actualizaciones</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Informacion</a>
+                        </li>
+                   </ul>
+
+                </div>
+
+                <div class="footer__content">
+                    <form action="" class="footer__form">
+                        <input type="emal" placeholder="Email" class="footer__input">
+                        <button class="button button--flex">
+                            <i class="ri-send-plane-2-fill button__icon"></i>
+                            Enviar
+                        </button>
+                    </form>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <p class="footer__copy">
+                <a href="https://www.youtube.com/c/Bedimcode/" target="_blank" class="footer__copy-link">
+                    &#169; Juan Apaza. All right reserved
+                </a>
+                
+            </p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-circle-fill scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
